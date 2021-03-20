@@ -17,7 +17,6 @@ public class FirstTestCase {
 		driver.findElement(By.xpath("//*[@name='lastname']")).sendKeys("GIT");;
 		driver.findElement(By.cssSelector("['btn']")).click();
 		System.out.println(driver.getTitle());
-		System.out.println("Post Request");
 		
 		driver.quit();
 	}
